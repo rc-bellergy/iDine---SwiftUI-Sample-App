@@ -16,6 +16,7 @@
 		4CF3CA0223A760D5006FCBDA /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF3CA0123A760D5006FCBDA /* Helper.swift */; };
 		4CF3CA0523A760EB006FCBDA /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF3CA0323A760EB006FCBDA /* Menu.swift */; };
 		4CF3CA0623A760EB006FCBDA /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF3CA0423A760EB006FCBDA /* Order.swift */; };
+		4CFD831E23A76CF100AECDA6 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 4CFD831D23A76CF100AECDA6 /* menu.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		4CF3CA0123A760D5006FCBDA /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		4CF3CA0323A760EB006FCBDA /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		4CF3CA0423A760EB006FCBDA /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		4CFD831D23A76CF100AECDA6 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				4CF3C9EF23A76027006FCBDA /* SceneDelegate.swift */,
 				4CF3C9F123A76027006FCBDA /* ContentView.swift */,
 				4CF3CA0323A760EB006FCBDA /* Menu.swift */,
+				4CFD831D23A76CF100AECDA6 /* menu.json */,
 				4CF3CA0423A760EB006FCBDA /* Order.swift */,
 				4CF3CA0123A760D5006FCBDA /* Helper.swift */,
 				4CF3C9F323A76028006FCBDA /* Assets.xcassets */,
@@ -144,6 +147,7 @@
 			files = (
 				4CF3C9FA23A76028006FCBDA /* LaunchScreen.storyboard in Resources */,
 				4CF3C9F723A76028006FCBDA /* Preview Assets.xcassets in Resources */,
+				4CFD831E23A76CF100AECDA6 /* menu.json in Resources */,
 				4CF3C9F423A76028006FCBDA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
