@@ -30,10 +30,12 @@ struct ItemDetail: View {
             Spacer()
             Button("Order This") {
                 self.order.add(item: self.item)
-            }.font(.headline)
+            }.font(.largeTitle)
             Spacer()
         }
         .navigationBarTitle(Text(item.name), displayMode: .inline)
+        .navigationBarItems(trailing:
+            Image(systemName: "suit.heart"))
     }
 }
 
